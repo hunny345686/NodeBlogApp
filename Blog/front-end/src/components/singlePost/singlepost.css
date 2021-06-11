@@ -1,0 +1,95 @@
+.singlePost {
+  flex: 9;
+}
+
+.singlePostWrapper {
+  padding: 1.5rem;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.siglepostimg {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.singlePsotTitle {
+  text-align: center;
+  font-family: "Lora", serif;
+  margin: 0.8rem;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+.siglePostEdit {
+  float: right;
+  font-size: 1rem;
+}
+.SiglePostIcon {
+  margin-left: 0.9rem;
+  cursor: pointer;
+}
+
+.SiglePostIcon:first-child {
+  color: teal;
+}
+.SiglePostIcon:last-child {
+  color: red;
+}
+.siglePostInfo {
+  margin-bottom: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  color: #ddadae;
+  font-family: "Varela Round", sans-serif;
+}
+
+.SiglePostDescription {
+  color: #666;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+}
+
+.SiglePostDescription::first-letter {
+  margin-left: 1.4rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.singlePsotTitleInput {
+  margin: 0.9rem;
+  font-family: "lora", serif;
+  font-size: 1.6rem;
+}
+
+.singlePsotTitleInput:focus {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #444;
+  color: gray;
+}
+
+.SiglePostDescriptionInput {
+  border: none;
+  color: gray;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.SiglePostDescriptionInput:focus {
+  outline: none;
+}
+
+.singlePostButton {
+  border: none;
+  background-color: teal;
+  width: 100px;
+  padding: 5px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: 1.6rem;
+}
