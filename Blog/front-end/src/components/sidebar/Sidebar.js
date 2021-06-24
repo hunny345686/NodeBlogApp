@@ -31,9 +31,11 @@ function Sidebar() {
         <ul className="sidebaarList">
           {cat.map((c) => {
             return (
-              <Link to={`/?cat=${c.name}`} className="link">
-                <li className="sidebarlistItems">{c.name}</li>;
-              </Link>
+              <div key={c._id}>
+                <Link to={`/?cat=${c.name}`} className="link">
+                  <li className="sidebarlistItems">{c.name}</li>;
+                </Link>
+              </div>
             );
           })}
         </ul>
